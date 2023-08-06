@@ -1,0 +1,77 @@
+body {
+    background-color: #3d405b;
+    color: #fff;
+}
+
+.boxContainer {
+    background-color: #1d3557;
+    width: 70%;
+    text-align: center;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    margin: 20px;
+}
+
+.box1 {
+    background-color: #a8dadc;
+}
+
+.box2 {
+    background-color: #f1faee;
+}
+
+.box3 {
+    background-color: #e63946;
+}
+
+.firstContainer {
+    width: 70%;
+    height: 300px;
+    margin: auto;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.childrenContainer {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.rectangle {
+    width: 150px;
+    height: 20px;
+    background-color: blueviolet;
+    transition: all 1.5s ease;
+}
+
+.rectangleTransition {
+    width: 350px;
+    height: 100px;
+    background-color: rgb(226, 101, 43);
+}
+
+.cycle {
+    width: 50px;
+    height: 50px;
+    border-radius: 30px;
+    background-color: cadetblue;
+    transition: transform 1.5s ease-in-out;
+}
+
+.cycleTransition {
+    transform: scale(3) translate(60px, 60px);
+}
+
+.controller {
+    width: 80px;
+}
